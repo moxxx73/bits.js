@@ -1,6 +1,6 @@
 const UNSIGNED = (n) => n>>>0;
 
-function rotateLeft(n, b, w){
+function rotateLeft(n, b){
 	n = UNSIGNED(n);
 	return ((n<<b|(n>>>(32-b))));
 }
